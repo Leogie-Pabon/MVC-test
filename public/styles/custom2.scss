@@ -1,0 +1,109 @@
+$primary-color:rgb(209, 209, 119);
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	flex-grow:1;
+}
+
+.primary-font {
+	font-family:"Satisfy" !important;
+}
+
+.secondary-font {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.btn.btn-primary {
+	background-color: pink !important;
+	color: #000;
+	border:none !important;
+	transition: opacity 0.2s ease;
+}
+
+.testimonials {
+	background:$primary-color;
+	padding:140px 0 40px;
+}
+
+.colllor {
+	background:#2e8e16;
+}
+
+.col-md-4.mb-5{
+	border: 1px solid #000; /* Adjust the color and width of the border as needed */
+	padding: 5px; /* Optional: Add padding to the element to separate the content from the border */
+	border-radius: 15px; /* Optional: Add rounded corners to the border */
+}
+
+.custom-bg-primary {
+	background: $primary-color;
+	
+}
+
+.rounded-image {
+	border-radius: 20px; /* Adjust the pixel value for larger rounded corners */
+	overflow: hidden;   /* This ensures the image doesn't overflow the rounded corners */
+}
+
+footer {
+	background:$primary-color;
+	color:white;
+}
+
+.primary-color {
+	color:$primary-color;
+}
+
+.btn.btn-primary:hover {
+	opacity: 0.7;
+}
+
+.text-shadow{
+	text-shadow:2px 2px 2px rgba(0,0,0,1);
+}
+
+
+.featured {
+	margin-bottom:80px;
+}
+
+.contact-us {
+	padding:40px 0;
+}
+
+.img-container {
+	min-height:300px;
+}
+
+.book-item .book-item-btns {
+	transition: all 0.2s ease
+}
+.book-item:hover .book-item-btns {
+	transform:translateY(-100%);
+}
+
+
+.accordion-button:not(.collapsed) {
+	background:$primary-color !important;
+	color:#fff !important;
+}
+
+.categories-section {
+    background: linear-gradient(rgb(247, 241, 225) 50%, rgb(247, 241, 225) 5%), url("../images/cat-bg1.jpg") no-repeat 100% 50%;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    background-size: cover; /* or contain, based on your preference */
+}
+
+.contact-us {
+	background: url("../images/ctc-us-bg.jpg") no-repeat;
+	background-size:47% 100%;
+}
+
+.book-item a:hover {
+	color:inherit;
+	opacity: 0.8;
+}
